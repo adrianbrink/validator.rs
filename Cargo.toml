@@ -4,3 +4,13 @@ version = "0.1.0"
 authors = ["Adrian Brink <adrian@brink-holdings.com>"]
 
 [dependencies]
+hyper = "*"
+curl = "*"
+json = "*"
+serde = "*"
+serde_macros = "*"
+serde_json = "*"
+diesel = "*"
+diesel_codegen = { version = "*", features = ["postgres"] }
+dotenv = "*"
+dotenv_macros = "*"
